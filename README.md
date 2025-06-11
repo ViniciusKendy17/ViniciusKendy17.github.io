@@ -1,4 +1,4 @@
-<!-- README.md -->
+<!-- README.md
 
 <h1 align="center">Vinicius Kendy</h1>
 <p align="center">💻 Desenvolvedor Web | 🚀 Focado em Front-End</p>
@@ -51,4 +51,4 @@ Se quiser conversar ou tiver uma proposta, me chama:
 <p align="center">Feito com ❤️ por Vinicius Kendy</p>
 
 
-
+ -->
