@@ -30,7 +30,7 @@
           (Web Technologies)
         </p>
 
-        <div>
+        <div >
           <!-- Contatos -->
           <div id="contatos">
             <a href="https://github.com/ViniciusKendy17" target="_blank">
@@ -67,26 +67,66 @@
                 />
               </svg>
             </a>
+
+            <a href="" id="email"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="35"
+                height="35"
+                fill="currentColor"
+                class="bi bi-envelope-at-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671"
+                />
+                <path
+                  d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791"
+                />
+              </svg>
+              viniciusmunhoz17@outlook.com</a
+            >
           </div>
           <!-- Tópicos -->
           <div class="buttons">
-            <a href="#projects" class="btn">Projects</a>
             <a href="#aboutme" class="btn">About me</a>
+            <a href="#projects" class="btn">Projects</a>
             <a href="#tools" class="btn">Tools</a>
             <a href="#experience" class="btn">Experience</a>
           </div>
         </div>
       </div>
       <div class="avatar">
-        <img
-          src="/ViniciusKendy17.github.io/imgs/me.jpg"
-          alt="Foto de Vinicius Kendy"
-        />
+        <img src="imgs/me.jpg" alt="Foto de Vinicius Kendy" />
       </div>
     </header>
 
-    <section id="aboutme" class="section">
-      <h2>About me</h2>
+    <section id="aboutme" class="about-section">
+      <h2>About Me</h2>
+
+      <p>
+        I'm <strong>Vinicius Kendy Munhoz de Souza</strong> — born in Japan and
+        currently living in Brazil. I'm actively preparing for the regional
+        <strong>WorldSkills</strong> competition in
+        <strong
+          ><a href="https://worldskills.org/skills/id/127/" id="frctxt"
+            >Web Technologies (Skill #17)</a
+          ></strong
+        >, while also building on my experience from the
+        <a
+          href="https://www.firstinspires.org/robotics/frc"
+          id="frctxt"
+          target="_blank"
+          >FIRST Robotics Competition (FRC)</a
+        >, where I participated last year.
+      </p>
+
+      <p>
+        Both of these experiences have significantly contributed to my growth as
+        a developer — from learning <strong>Java</strong> for robotics, to
+        embracing <strong>React.js</strong> for front-end development,
+        constantly evolving my logic and problem-solving skills.
+      </p>
     </section>
 
     <section id="projects" class="section">
@@ -97,8 +137,8 @@
           target="_blank"
         >
           <div class="card">
-            <h3>Encurtador de URL</h3>
-            <p>Encurtador de URL feito em PHP + Mongodb</p>
+            <h3>URL Shortener</h3>
+            <p>URL Shortener made with PHP + Mongodb</p>
             <img src="imgs/image.png" alt="" />
           </div>
         </a>
@@ -109,9 +149,7 @@
         >
           <div class="card">
             <h3>DashBoard World Skills #48</h3>
-            <p>
-              DashBoard feito com React JS para os competidores da indústria 4.0
-            </p>
+            <p>Dashboard made with React JS for the #4.0 industry copetitors</p>
             <img src="imgs/smart_ico.ico" alt="" />
           </div>
         </a>
@@ -119,7 +157,7 @@
         <a href="https://github.com/ViniciusKendy17/Termoo" target="_blank">
           <div class="card">
             <h3>TERMOO</h3>
-            <p>Cópia do jogo TERMO feito com HTML, CSS e JS</p>
+            <p>Termo copy made with only HTML, CSS e JS</p>
             <img src="imgs/termo.png" alt="" />
           </div>
         </a>
@@ -130,7 +168,7 @@
         >
           <div class="card" id="frc">
             <h3>FRC</h3>
-            <p>Código do Robô de 2025 da FRC - Miner Skills</p>
+            <p>FRC 2025 Robot code - Miner Skills</p>
             <img src="imgs/FIRST-Icon.png" alt="" />
           </div>
         </a>
@@ -139,16 +177,77 @@
 
     <section id="tools" class="section">
       <h2>Tools</h2>
+
+      <div class="techs">
+        <img src="imgs/HTML.svg" alt="" />
+        <img src="imgs/CSS.svg" alt="" />
+        <img src="imgs/JavaScript.svg" alt="" />
+        <img src="imgs/React-Dark.svg" alt="" />
+        <img src="imgs/PHP-Dark.svg" alt="" />
+        <img src="imgs/Java-Dark.svg" alt="" />
+        <img src="imgs/Laravel-Dark.svg" alt="" />
+        <img src="imgs/MySQL-Dark.svg" alt="" />
+        <img src="imgs/PostgreSQL-Dark.svg" alt="" />
+      </div>
     </section>
 
-    <section id="experience" class="section">
+    <section id="experience" class="section experience-section">
       <h2>Experience</h2>
+
+      <!-- WorldSkills -->
+      <div class="experience-block left-text">
+        <div class="text">
+          <h3>WorldSkills - Web Technologies</h3>
+          <p>
+            I'm currently training for the regional stage of WorldSkills in Web
+            Technologies (Skill #17). This journey has pushed me to improve my
+            logic, structure, and speed while working with tools like React.js,
+            version control, and advanced CSS layout techniques.
+          </p>
+        </div>
+        <div class="image">
+          <img src="imgs/WS_Logo_White_RGB.png" alt="WorldSkills" />
+        </div>
+      </div>
+
+      <!-- FRC -->
+      <div class="experience-block right-text">
+        <div class="image">
+          <img src="imgs/FIRST-Icon.png" alt="FRC" />
+        </div>
+        <div class="text">
+          <h3>FRC - FIRST Robotics Competition</h3>
+          <p>
+            I participated in the FIRST Robotics Competition, where I worked
+            with Java + WPILIB and control systems. This experience improved my
+            engineering mindset, teamwork, and real-time problem-solving under
+            pressure.
+          </p>
+        </div>
+      </div>
+
+      <!-- SENAI -->
+      <div class="experience-block left-text">
+        <div class="text">
+          <h3>SENAI Technical Education</h3>
+          <p>
+            At SENAI, I developed solid foundations in web development, middlware softwares for automation, software
+            design, and industrial logic. I also learned to balance theory with
+            hands-on practice in real-world scenarios.
+          </p>
+        </div>
+        <div class="image">
+          <img src="imgs/senai.png" alt="SENAI" />
+        </div>
+      </div>
     </section>
 
     <section id="contact" class="section">
       <h4>What’s your take?</h4>
       <h1 id="work">Up for working together?</h1>
-      <p style="text-align: center;" >contact me by <a href="" id="contlink">viniciusmunhoz17@outlook.com</a></p>
+      <p style="text-align: center">
+        contact me by <a href="" id="contlink">viniciusmunhoz17@outlook.com</a>
+      </p>
     </section>
 
     <footer>
@@ -170,9 +269,9 @@
       };
 
       const texto = [
-        "Desenvolvedor Back-End PHP",
-        "Competidor World Skills",
-        "Ex-Competidor FRC",
+        "PHP Web Developer",
+        "World Skills Competitor",
+        "FRC Ex-competitor",
       ];
       let count = 0,
         i = 0,
